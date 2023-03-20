@@ -1,0 +1,40 @@
+package Switch_Case;
+
+import java.util.*;
+
+public class week {
+    public static void main(String args[]) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the day of week : ");
+        int day = sc.nextInt();
+
+        switch (day) {
+            case 1:
+                System.out.println("Monday Hai");
+                break;
+            case 2:
+                System.out.println("Tuesday Hai");
+                break;
+            case 3:
+                System.out.println("Wednesday Hai");
+                break;
+            case 4:
+                System.out.println("Thursday Hai");
+                break;
+            case 5:
+                System.out.println("Friday Hai");
+                break;
+            case 6:
+                System.out.println("Saturday Hai");
+                break;
+            case 7:
+                System.out.println("Sunday Hai");
+                break;
+            default:
+                System.out.println("Not the day of week");
+
+        }
+
+    }
+}
